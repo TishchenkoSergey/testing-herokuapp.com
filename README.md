@@ -8,7 +8,7 @@
 <li>OS: Windows_NT x64 10.0.18363</li>
 
 <h2>Instruction</h2>
-<p>To work with the test, clone the repository and open in ide. In the terminal, you need to write the <em>npm i</em> command and after installation enter the <em>npm run test</em> command.</p>
+<p>To work with the test, clone the repository and open in ide. In the terminal, you need to write the <strong><em>npm i</em></strong> command and after installation enter the <strong><em>npm run test</em></strong> command.</p>
 
 <h2>Preparation</h2>
 <p>In order for the test to work with uploading a file from a computer, you need to transfer the folder <em>herokuapp.test\map.jpg</em> to drive C. The path to be used in test : <em>C:\\map.jpg</em>.<p> 
