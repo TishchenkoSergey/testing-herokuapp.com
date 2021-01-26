@@ -12,7 +12,7 @@ describe('test task', () => {
     }
   );
 
-  xit('TEST 1', () => {
+  it('TEST 1', () => {
     console.log('Step 1: going to main page');
     browser.url(homePage);
 
@@ -32,7 +32,7 @@ describe('test task', () => {
     assert.equal(addOrRemoveElementsPage.countOfElements(), 2, 'page has 2 buttons "Delete"')
   });
 
-  xit('TEST 2', () => {
+  it('TEST 2', () => {
     console.log('Step 1: going to main page');
     browser.url(homePage);
     
@@ -62,7 +62,7 @@ describe('test task', () => {
     assert.equal(jsAlertPage.getResultMessage(), 'You entered: asd', 'message equal "You entered: asd"');
   });
   
-  xit('TEST 3', () => {
+  it('TEST 3', () => {
     console.log('Step 1: going to main page')
     browser.url(homePage);
     
